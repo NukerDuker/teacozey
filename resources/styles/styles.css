@@ -1,0 +1,170 @@
+html {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+/* --------------------Header section------------------------------------------------------*/
+header {
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position:fixed;
+}
+
+.center-menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    max-width: 1200px;
+    opacity: 0.9;
+}
+.logo {
+    height: 50px;
+}
+
+.logo img {
+    margin-left: 10px;
+    height:50px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 10px;
+    text-decoration: underline;
+    line-height: 69px;
+}
+
+a {
+    color: seashell;
+}
+/*-------------------Banner-----------------------------------------------------------------*/
+
+.banner {
+    margin: 0 auto;
+    height:700px;
+    max-width: 1200px;
+    background-image: url("../img-mission-background.webp");
+    background-size: cover;
+}
+
+.background-image {
+    height:700px;
+    max-width: 1200px;
+    display:flex;
+    align-items: center;
+}
+
+.text {
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    flex-grow: 2;
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.items {
+    margin: 0;
+}
+
+/*-------------------Products---------------------------------------------------------------*/
+.products {
+    max-width: 1000px;
+    margin: 3% auto;
+}
+
+.sectionname h2, .sectionname h4 {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+figure {
+    margin: 10px;
+}
+
+.flex figure img {
+    height: 200px;
+    max-width: 300px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+figcaption h4 {
+    text-align: center;
+    margin: 0;
+}
+
+/*-------------------Products---------------------------------------------------------------*/
+.locations {
+    height: 500px;
+    max-width: 1200px;
+    background-image: url(../img-locations-background.webp);
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.locations h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.second-flex {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 0 1 300px;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0.9;
+    margin: 0 20px;
+    text-align: center;
+}
+
+/*-------------------Products---------------------------------------------------------------*/
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer {
+    text-align: center;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    margin: 20px;
+    text-align: left;
+}
